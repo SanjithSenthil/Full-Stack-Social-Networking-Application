@@ -8,7 +8,7 @@
 ### Demo Video
 - Click to play the below video for the demo.
 
-https://github.com/SanjithSenthil/Full-Stack-Social-Networking-Application/assets/109128028/608e8488-9ce8-466f-be5d-cf784a715275
+https://github.com/SanjithSenthil/Full-Stack-Social-Networking-Application/assets/109128028/e7990f7b-b52b-4365-a11f-ff4074b86db7
 
 ### Tech Stack
 - MongoDB
