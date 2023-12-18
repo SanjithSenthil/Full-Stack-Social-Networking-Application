@@ -1,0 +1,83 @@
+.navigationbarContainer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: teal;
+}
+.navigationbarLeft{
+    flex: 3.7;
+}
+.navigationbartitle{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.navigationbarCenter{
+    flex: 4.6;
+}
+.navigationbarSearchbar{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    background-color: white;    
+}
+.navigationbarSearchIcon{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.navigationbarSearchInput{
+    width: 70%;
+    margin-left: 5px;
+    font-size: 13px;
+    border: none;
+}
+.navigationbarSearchInput:focus{
+    outline: none;
+}
+.navigationbarRight{
+    flex: 3.7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.navigationbarIcons{
+    display: flex;
+    margin-left: 30px;
+}
+.navigationbarIconItem{
+    position: relative;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.navigationbarIconNumber{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+.navigationbarImg{
+    width: 40px;
+    height: 40px;
+    margin-left: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}

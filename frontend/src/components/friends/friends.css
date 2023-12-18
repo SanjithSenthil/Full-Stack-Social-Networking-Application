@@ -1,0 +1,21 @@
+.chatList{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.chatList:hover{
+    background-color: teal;
+    color: white;
+}
+.chatListImage{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.chatListName{
+    font-weight: 500;
+}
